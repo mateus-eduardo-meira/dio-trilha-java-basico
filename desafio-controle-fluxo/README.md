@@ -1,18 +1,9 @@
-## Getting Started
+## Desafio de Controle de Fluxo - Concluído
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Neste desafio, foi desenvolvida uma solução utilizando estruturas de controle de fluxo para resolver um problema proposto de forma lógica e eficiente.
 
-## Folder Structure
+Foram aplicadas estruturas condicionais `if-else` para tomada de decisões com base em diferentes entradas, e laços de repetição `for` para percorrer sequências de dados de forma controlada.
 
-The workspace contains two folders by default, where:
+A combinação dessas estruturas permitiu implementar uma lógica clara e adaptável, reforçando o entendimento sobre o fluxo de execução em programas.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+> O desafio foi uma ótima oportunidade para praticar lógica e consolidar o uso de comandos fundamentais na programação.
