@@ -1,18 +1,36 @@
-## Getting Started
+# 📱 Desafio de Programação Orientada a Objetos - Modelagem de um iPhone
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## 🎯 Objetivo
+O objetivo deste desafio foi aplicar os princípios da **Programação Orientada a Objetos (POO)** para modelar um componente `iPhone`, com base na apresentação oficial do produto feita por Steve Jobs em 2007. O projeto envolveu a **modelagem UML** e a **implementação em Java** de três funcionalidades principais do dispositivo.
 
-## Folder Structure
+---
 
-The workspace contains two folders by default, where:
+## 🧩 Funcionalidades Modeladas
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+O iPhone foi dividido em três interfaces funcionais distintas:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- **Reprodutor Musical**
+  - `tocar()`
+  - `pausar()`
+  - `selecionarMusica(String musica)`
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+- **Aparelho Telefônico**
+  - `ligar(String numero)`
+  - `atender()`
+  - `iniciarCorreioVoz()`
 
-## Dependency Management
+- **Navegador na Internet**
+  - `exibirPagina(String url)`
+  - `adicionarNovaAba()`
+  - `atualizarPagina()`
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+A classe `iPhone` implementa todas essas interfaces, centralizando as funcionalidades em um único componente.
+
+---
+
+## 🧱 Diagrama UML
+
+O diagrama foi elaborado para representar a estrutura do sistema, evidenciando a implementação das interfaces pela classe `iPhone`. Cada funcionalidade foi isolada em uma interface específica, promovendo organização e reutilização de código.
+
+[UML iPhone](https://drive.google.com/file/d/1psEO4NEJuucelRIPr29YcqN8M3wPcg9T/view?usp=sharing)
+
